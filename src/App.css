@@ -20,6 +20,12 @@
   display: flex;
 }
 
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
 .contact-body {
   margin: auto;
   /* background: grey; */
