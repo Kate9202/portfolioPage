@@ -1,4 +1,4 @@
-#Welcome to my portfolio page
+# Welcome to my portfolio page
 
 Reference websites:
 1. For website color palette: https://uigradients.com/
