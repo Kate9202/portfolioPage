@@ -8,14 +8,22 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://cdn-images-1.medium.com/max/1200/1*RpxcLZjkK2fZYECYCBeYUA.jpeg"
+              src="https://media.licdn.com/dms/image/C4E03AQF3L9bUg8JRIg/profile-displayphoto-shrink_200_200/0?e=1542240000&v=beta&t=DCtvGlO_ukgdeJeSNha8WJ7RA_N-xMdLVPvQRVwypDc"
               alt="avatar"
               className="avatar-img"
             />
             <div className="banner-text">
               <h1>Software Engineer</h1>
               <hr/>
-              <p className="skill-list">Java / JavaScript</p>
+
+              <p className="skill-list">
+                <ul>
+                  <li><b>Programming Language</b>: Java, JavaScript, Python, Ruby, R, HTML, CSS</li>
+                  <li><b>Framework</b>: Spring Framework, Meteor, Node.js, REST, Ruby on Rails, React, AngularJS</li>
+                  <li><b>Cloud Platform</b>: AWS EC2, RDS, S3, Spring Cloud, Docker</li>
+                  <li><b>Database</b>: MySQL, MongoDB, Redis, MemCached, Cassandra, RabbitMQ</li>
+                </ul>
+              </p>              
               <div className="social-links">
                 {/*Github*/}
                 <a href ="https://github.com/Kate9202" target="_blank" rel="noopener noreferrer">

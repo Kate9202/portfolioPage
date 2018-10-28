@@ -7,15 +7,16 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Yuhuan Fan</h2>
+
               <img
-                src="https://us.123rf.com/450wm/tuktukdesign/tuktukdesign1607/tuktukdesign160700194/59972391-woman-user-icon-laptop-computer-device-worker-vector-illustration.jpg?ver=6"
+                src="https://media.licdn.com/dms/image/C4E03AQF3L9bUg8JRIg/profile-displayphoto-shrink_200_200/0?e=1542240000&v=beta&t=DCtvGlO_ukgdeJeSNha8WJ7RA_N-xMdLVPvQRVwypDc"
                 alt="avatar"
                 style={{height: '250px'}}
+                className="contact-avatar"
               />
-
-              <p style={{width:'75%', margin:'auto', paddingTop: '1em'}}>
-              Download female programmer icon in PNG and vector SVG formats for both personal & commercial use. Find more icons for infographics and websites.
+              <h2>Yuhuan Fan</h2>
+              <p style={{fontSize:'30px', width:'75%', margin:'auto', paddingTop: '1em'}}>
+                Software Engineer
               </p>
 
 
@@ -29,12 +30,6 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
                   <i className="fa fa-phone-square" aria-hidden="true" />(123)-456-1234
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
-                  <i className="fa fa-fax" aria-hidden="true" />123-123-123
                   </ListItemContent>
                 </ListItem>
 

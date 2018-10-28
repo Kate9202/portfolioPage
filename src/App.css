@@ -4,6 +4,7 @@
   background: linear-gradient(to right, #d3cce3, #e9e4f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+{/*Landing Page*/}
 .landing-grid {
   background: #d3cce3; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #d3cce3, #e9e4f0); /* Chrome 10-25, Safari 5.1-6 */
@@ -16,16 +17,74 @@
   height: 100%;
 }
 
+.avatar-img{
+  height: 249px;
+  width: 249px;
+  margin-top: 7em;
+  border-radius: 50%;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text ul {
+  color: white;
+  font-size: 18px;
+  /* padding-left: 1em; */
+  border-left: 80px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 3em;
+  padding: 8px;
+}
+
+{/*Project Page*/}
 .projects-grid {
   display: flex;
 }
 
+{/*Resume Page*/}
 .resume-right-col {
   background: #27221F;
   color: white;
   padding: 2em;
 }
 
+.resume-left-text {
+  padding-left: 20px;
+}
+
+{/*Contact Page*/}
 .contact-body {
   margin: auto;
   /* background: grey; */
@@ -68,52 +127,8 @@
   /* margin: auto; */
 }
 
-
-.avatar-img{
-  height: 200px;
-  padding-top: 2em;
-
-}
-
-.banner-text {
-  background-color: black;
-  opacity: .8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px;
-}
-
-.banner-text h1 {
-  font-size: 66px;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-}
-
-.banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
-
-.banner-text p {
-  color: white;
-  font-size: 20px;
-  padding: 1em;
-  text-align: center;
-}
-
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
-
-.social-links i {
-  color: white;
-  font-size: 3em;
-  padding: 8px;
+.contact-avatar {
+  border-radius: 50%;
 }
 
 .App {

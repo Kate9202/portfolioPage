@@ -9,18 +9,17 @@ class Projects extends Component {
 
   toggleCategories(){
     if(this.state.activeTab === 0){
+      /*{React Projects}*/
       return(
         <div className="projects-grid">
           {/*Project 1*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color:"white", height:'176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>React Project 1</CardTitle>
+            <CardTitle style={{color:"white", height:'176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>My portfolio page</CardTitle>
             <CardText>
-              This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+              This is my third version portfolio website.
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/Kate9202/portfolioPage">Github</Button>
             </CardActions>
             <CardMenu style={{color:'#fff'}}>
               <IconButton name="share" />
@@ -29,51 +28,34 @@ class Projects extends Component {
 
           {/*Project 2*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color:"white", height:'176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>React Project 2</CardTitle>
+            <CardTitle style={{color:"white", height:'176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>BWT web app</CardTitle>
             <CardText>
-              This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+              This is the web app built for the basketball team I play in. The project is still in construction.
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color:'#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
-          {/*Project 3*/}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color:"white", height:'176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>React Project 3</CardTitle>
-            <CardText>
-              This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-            </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{color:'#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+          
         </div>
-
-
-
       )
     } else if(this.state.activeTab === 1){
       return(
-        <div><h1>This is Angular</h1></div>
+        /*{Java Spring Projects}*/
+        <div><h1>Java / Spring projects waiting to be published</h1></div>
       )
     } else if(this.state.activeTab === 2){
       return(
-        <div><h1>This is VueJS</h1></div>
+        /*{Ruby on Rails Projects}*/
+        <div><h1>Ruby on Rails waiting to be published</h1></div>
       )
     } else if(this.state.activeTab === 3){
       return(
-        <div><h1>This is MongoDB</h1></div>
+        /*{MongoDB Projects}*/
+        <div><h1>MongoDB waiting to be published</h1></div>
       )
     }
   }
@@ -84,8 +66,8 @@ class Projects extends Component {
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
           <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJs</Tab>
+          <Tab>Java / Spring</Tab>
+          <Tab>Ruby on Rails</Tab>
           <Tab>MongoDB</Tab>
         </Tabs>
 
